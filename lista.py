@@ -15,3 +15,7 @@ print("Após remover 'graviola':", frutas)
 
 ultima = frutas.pop()
 print('Última removida:', ultima)
+
+print("Tamanho da lista 'frutas':", len(frutas))
+print('Fatiamento [1:4]:', frutas[1:4])
+print("Tem 'jaca'?", "jaca" in frutas)
